@@ -8,7 +8,7 @@ SRCS = func_call.c main.c
 OBJS = $(SRCS:.c=.o)
 
 # The name of the final executable
-TARGET = my_program
+TARGET = EXE
 
 all: $(TARGET)
 
