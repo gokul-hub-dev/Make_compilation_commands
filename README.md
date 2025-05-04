@@ -30,10 +30,8 @@ add_executable(MyExecutable main.cpp)
 
 ---
 
-🧱 Minimal Full Example
-cmake
-Copy
-Edit
+##🧱 Minimal Full Example
+```c
 cmake_minimum_required(VERSION 3.10)
 project(MyProject LANGUAGES CXX)
 
@@ -41,3 +39,4 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_executable(MyProject main.cpp)
+```
