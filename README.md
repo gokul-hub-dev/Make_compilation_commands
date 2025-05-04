@@ -7,24 +7,29 @@ Ensures compatibility with newer CMake features.
 
 ---
 
-Project name and language
-
+### Project name and language
+```c
 project(MyProjectName LANGUAGES CXX)
+```
 Sets the name of your project and tells CMake you're using C++.
 
-C++ standard (optional but recommended)
+---
 
-cmake
-Copy
-Edit
+### C++ standard (optional but recommended)
+```c
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
-Add an executable (or library)
+```
 
-cmake
-Copy
-Edit
+---
+
+### Add an executable (or library)
+```c
 add_executable(MyExecutable main.cpp)
+```
+
+---
+
 🧱 Minimal Full Example
 cmake
 Copy
