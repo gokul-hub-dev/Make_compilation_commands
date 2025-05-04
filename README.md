@@ -30,7 +30,7 @@ add_executable(MyExecutable main.cpp)
 
 ---
 
-## 🧱 Minimal Full Example
+### 🧱 Minimal Full Example
 ```c
 cmake_minimum_required(VERSION 3.10)
 project(MyProject LANGUAGES CXX)
